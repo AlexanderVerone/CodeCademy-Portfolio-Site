@@ -1,0 +1,85 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  margin-left: 254px;
+  margin-right: 254px;
+  padding: 0;
+  color: #323232;
+  font-family: 'Open Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Proza Libre', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  display: inline-block;
+}
+nav li:not(:last-child) {
+  margin-right: 16px;
+}
+nav a {
+  text-decoration: none;
+  color: #323232;
+  transition: color 0.3s;
+}
+.about-me {
+  display: flex;
+}
+.about-me img {
+  width: 300px;
+  height: 310px;
+  margin-left: 16px;
+  border-radius: 25 px;
+}
+.projects details {
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 0 10px 50px;
+  background-color: rgba(232, 232, 232, 1);
+}
+details open {
+}
+summary {
+  display: inline-block;
+  cursor: pointer;
+}
+.projects h3 {
+  margin: 7px;
+}
+.projects img {
+  display: block;
+  width: 830px;
+}
+.skills-img-container {
+  display: flex;
+}
+.skills-img-container img {
+  display: block;
+  margin: 0 25px;
+  width: 35px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-top: solid 0.1px #323232;
+}
+.heart img {
+  width: 15px;
+  height: 15px;
+}
+
+nav a:hover {
+  color: #8ac778;
+}
