@@ -4,7 +4,6 @@ body {
   margin-left: 254px;
   margin-right: 254px;
   padding: 0;
-  color: #323232;
   font-family: 'Open Sans', sans-serif;
 }
 h1,
@@ -22,7 +21,6 @@ header {
 }
 header a {
   text-decoration: none;
-  color: #323232;
 }
 nav li {
   display: inline-block;
@@ -32,7 +30,6 @@ nav li:not(:last-child) {
 }
 nav a {
   text-decoration: none;
-  color: #323232;
   transition: color 0.3s;
 }
 .about-me {
@@ -42,14 +39,13 @@ nav a {
   width: 300px;
   height: 310px;
   margin-left: 16px;
-  border-radius: 25 px;
+  border-radius: 15px;
 }
 .projects details {
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px 0 10px 50px;
-  background-color: rgba(232, 232, 232, 1);
 }
 summary {
   display: inline-block;
@@ -75,15 +71,10 @@ footer {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  border-top: solid 0.1px #323232;
 }
 .heart img {
   width: 15px;
   height: 15px;
-}
-
-nav a:hover {
-  color: #8ac778;
 }
 
 /* Contacts page */
@@ -109,4 +100,15 @@ nav a:hover {
 }
 .contact-links img:hover {
   width: 60px;
+}
+
+/* change color theme */
+
+button {
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }

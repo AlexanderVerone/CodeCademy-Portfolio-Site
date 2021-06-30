@@ -1,0 +1,28 @@
+body {
+  color: #dcdcdc;
+  background-color: #323232;
+}
+header a {
+  color: #dcdcdc;
+}
+nav a {
+  color: #dcdcdc;
+}
+.projects details {
+  background-color: rgb(84, 84, 84);
+}
+footer {
+  border-top: solid 0.1px #dcdcdc;
+}
+nav a:hover {
+  color: #788ec7;
+}
+button {
+  background-color: #788ec7;
+  color: #dcdcdc;
+  transition: color 0.3s, background-color 0.3s;
+}
+button:hover {
+  color: #788ec7;
+  background-color: #323232;
+}
