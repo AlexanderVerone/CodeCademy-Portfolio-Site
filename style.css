@@ -1,8 +1,7 @@
 body {
   box-sizing: border-box;
-  margin: 0;
-  margin-left: 254px;
-  margin-right: 254px;
+  margin: 0 auto;
+  max-width: 928px;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
@@ -34,8 +33,10 @@ nav a {
 }
 .about-me {
   display: flex;
+  align-items: center;
 }
 .about-me img {
+  display: block;
   width: 300px;
   height: 310px;
   margin-left: 16px;
@@ -56,21 +57,23 @@ summary {
 }
 .projects img {
   display: block;
-  width: 830px;
+  width: 95%;
+}
+.skills {
+  padding-bottom: 20px;
 }
 .skills-img-container {
   display: flex;
+  justify-content: space-between;
 }
 .skills-img-container img {
   display: block;
-  margin: 0 25px;
   width: 35px;
 }
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
 }
 .heart img {
   width: 15px;
@@ -127,8 +130,8 @@ button {
 }
 .b-popup .b-popup-content {
   margin: auto;
-  margin-top: 20%;
-  width: 15%;
+  margin-top: 15%;
+  width: 250px;
   height: auto;
   padding: 10px;
   background-color: rgb(235, 235, 235);
@@ -157,3 +160,62 @@ button {
   color: #4f1c1c;
   cursor: pointer;
 }
+
+/* responsive styles */
+
+@media (max-width: 1312px) {
+  header {
+    flex-direction: column;
+  }
+  h1 {
+    margin-bottom: 0;
+  }
+  nav {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 965px) {
+  body {
+    margin: 0 20px 0 20px;
+  }
+  nav {
+    margin-bottom: 0;
+  }
+  ul {
+    margin-bottom: 0;
+  }
+  main {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 600px) {
+  nav li {
+    font-size: 12px;
+  }
+  button {
+    width: 100%;
+    font-size: 9px;
+    font-weight: normal;
+    padding: 5px;
+  }
+  .about-me {
+    flex-direction: column;
+  }
+  .projects details {
+    padding: 10px 25px;
+  }
+}
+@media (max-width: 423px) {
+  nav {
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+} ;

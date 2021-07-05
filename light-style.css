@@ -10,8 +10,8 @@ nav a {
 .projects details {
   background-color: rgba(232, 232, 232, 1);
 }
-footer {
-  border-top: solid 0.1px #323232;
+.skills {
+  border-bottom: solid 0.1px #323232;
 }
 nav a:hover {
   color: #8ac778;
